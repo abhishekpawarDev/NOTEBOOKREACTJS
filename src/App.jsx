@@ -1,8 +1,12 @@
-import { Box } from "@mui/material";
 import React from "react";
+import Screen from "./components/Screens";
 
 const App = () => {
-  return <>Hello Abhi</>;
+  return(
+    <>
+      <Screen/>
+    </>
+  );
 };
 
 export default App;
